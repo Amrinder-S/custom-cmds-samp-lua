@@ -52,7 +52,7 @@ end
 
 function lic(arg)
 local name = arg
-if arg==nil then name = "_"
+if arg==nil then name = "_" end
 	sampSendChat("/revokelicense "..name.." weapon illegal brandishing of a weapon")
 end
 

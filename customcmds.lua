@@ -47,10 +47,10 @@ local name = " "
 	name = "the suspect"
 	end
 	if name == '' then name = "the suspect" end
-	sampSendChat("/me takes out the weapon license from "..arg.."'s pocket, she crosses on it and puts it in her pocket to revoke later.")
+	sampSendChat("/me takes out the weapon license from "..name.."'s pocket, she crosses on it and puts it in her pocket to revoke later.")
 end
 
-function lic(arg)
+function rev(arg)
 local name = arg
 if arg==nil then name = "_" end
 	sampSendChat("/revokelicense "..name.." weapon illegal brandishing of a weapon")
